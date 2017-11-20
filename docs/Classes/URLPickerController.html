@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>URLPickerController Class Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+  </head>
+  <body>
+    <a name="//apple_ref/swift/Class/URLPickerController" class="dashAnchor"></a>
+    <a title="URLPickerController Class Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="../index.html">SDEDownloadManager Docs</a> (89% documented)</p>
+        <p class="header-right"><a href="https://github.com/seedante/SDEDownloadManager/"><img src="../img/gh.png"/>View on GitHub</a></p>
+        <p class="header-right"><a href="dash-feed://https%3A%2F%2Fseedante%2Egithub%2Eio%2FSDEDownloadManager%2Fdocsets%2FSDEDownloadManager%2Exml"><img src="../img/dash.png"/>Install in Dash</a></p>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../index.html">SDEDownloadManager Reference</a>
+        <img id="carat" src="../img/carat.png" />
+        URLPickerController Class Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="../Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/DownloadListController.html">DownloadListController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/DownloadTrackerCell.html">DownloadTrackerCell</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/SDEDownloadManager.html">SDEDownloadManager</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/SDETableViewController.html">SDETableViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/SliderAlertController.html">SliderAlertController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/URLPickerController.html">URLPickerController</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Global Variables.html">Global Variables</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Global Variables.html#/s:v18SDEDownloadManager33ChangeFileDisplayNameNotificationSS">ChangeFileDisplayNameNotification</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Global Variables.html#/s:v18SDEDownloadManager42DownloadIsCompletedBeforeTrackNotificationSS">DownloadIsCompletedBeforeTrackNotification</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Global Variables.html#/s:v18SDEDownloadManager46DownloadedTemporaryFileIsProcessedNotificationSS">DownloadedTemporaryFileIsProcessedNotification</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Global Variables.html#/s:v18SDEDownloadManager47DownloadedTemporaryFileIsProcessingNotificationSS">DownloadedTemporaryFileIsProcessingNotification</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Global Variables.html#/s:v18SDEDownloadManager35RestoreFromAppForceQuitNotificationSS">RestoreFromAppForceQuitNotification</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Global Variables.html#/s:v18SDEDownloadManager26TIFileDisplayNameStringKeySS">TIFileDisplayNameStringKey</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Global Variables.html#/s:v18SDEDownloadManager20TIFileIntroStringKeySS">TIFileIntroStringKey</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Enums.html">Enums</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Enums/AccessoryButtonStyle.html">AccessoryButtonStyle</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/BarButtonAppearanceStyle.html">BarButtonAppearanceStyle</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/ComparisonOrder.html">ComparisonOrder</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/ComparisonType.html">ComparisonType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/DeleteTaskType.html">DeleteTaskType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/DownloadTaskState.html">DownloadTaskState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/ImageViewStyle.html">ImageViewStyle</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/ListType.html">ListType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/NavigationBarActionEnum.html">NavigationBarActionEnum</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/ThumbnailShape.html">ThumbnailShape</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/ToolBarActionEnum.html">ToolBarActionEnum</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Extensions.html">Extensions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Extensions/String.html">String</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/URLSessionTask.html">URLSessionTask</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Functions.html">Functions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:F18SDEDownloadManager4DMLSFTSS7commentSS_SS">DMLS(_:comment:)</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Protocols.html">Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Protocols/AccessoryButtonDelegate.html">AccessoryButtonDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/DownloadActivityTrackable.html">DownloadActivityTrackable</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>URLPickerController</h1>
+              <div class="declaration">
+                <div class="language">
+                  <pre class="highlight"><code><span class="n">open</span> <span class="kd">class</span> <span class="kt">URLPickerController</span><span class="p">:</span> <span class="kt"><a href="../Classes/SDETableViewController.html">SDETableViewController</a></span></code></pre>
+
+                </div>
+              </div>
+            <p><code>URLPickerController</code> is just a UITableViewController subclass which allows multiple selection and execute
+a closure with selected strings. If string is not a valid URL, it won&rsquo;t be displayed in the list.</p>
+
+<p>Sometimes URL link is too long to display completedly in the cell, there are some options to improve it:</p>
+
+<ol>
+<li><code>adjustsCellFontSizeToFitWidth</code>: The simplest way.</li>
+<li><code>isFileNamePriorThanURL</code>: Only file name is enough sometimes.</li>
+<li><code>shouldDisplayTinyURLAtCellTop</code>: File name loose its location info, fix it by a not very conspicuous way.</li>
+</ol>
+
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Initializer"></a>
+                <a name="//apple_ref/swift/Section/Initializer" class="dashAnchor"></a>
+                <a href="#/Initializer">
+                  <h3 class="section-name">Initializer</h3>
+                </a>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC18SDEDownloadManager19URLPickerControllercFT10URLStringsGSaSS_21pickCompletionHandlerFGSaSS_T_15pickButtonTitleGSqSS__S0_"></a>
+                    <a name="//apple_ref/swift/Method/init(URLStrings:pickCompletionHandler:pickButtonTitle:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC18SDEDownloadManager19URLPickerControllercFT10URLStringsGSaSS_21pickCompletionHandlerFGSaSS_T_15pickButtonTitleGSqSS__S0_">init(URLStrings:pickCompletionHandler:pickButtonTitle:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The designated init method.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="nf">init</span><span class="p">(</span><span class="kt">URLStrings</span><span class="p">:</span> <span class="p">[</span><span class="kt">String</span><span class="p">],</span> <span class="nv">pickCompletionHandler</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="p">(</span><span class="n">_</span> <span class="nv">selectedURLStrings</span><span class="p">:[</span><span class="kt">String</span><span class="p">])</span> <span class="o">-&gt;</span> <span class="p">(),</span> <span class="nv">pickButtonTitle</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>URLStrings</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>String Array. If string is not a valid URL, it will be filtered.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>pickCompletionHandler</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The closure to execute after tap confirm button in the header view.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>selectedURLStrings</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>It&rsquo;s sure that its count &gt;= 1.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>pickButtonTitle</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Title for confirm and <code>nil</code> by default. The default title for confirm
+is <q>Pick</q>.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC18SDEDownloadManager19URLPickerControllercFT5coderCSo7NSCoder_GSqS0__"></a>
+                    <a name="//apple_ref/swift/Method/init(coder:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC18SDEDownloadManager19URLPickerControllercFT5coderCSo7NSCoder_GSqS0__">init(coder:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>No implemented. Don&rsquo;t init from storyboard/nib file.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">required</span> <span class="kd">public</span> <span class="nf">init</span><span class="p">?(</span><span class="n">coder</span> <span class="nv">aDecoder</span><span class="p">:</span> <span class="kt">NSCoder</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Custom%20Option"></a>
+                <a name="//apple_ref/swift/Section/Custom Option" class="dashAnchor"></a>
+                <a href="#/Custom%20Option">
+                  <h3 class="section-name">Custom Option</h3>
+                </a>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vC18SDEDownloadManager19URLPickerController29adjustsCellFontSizeToFitWidthSb"></a>
+                    <a name="//apple_ref/swift/Property/adjustsCellFontSizeToFitWidth" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vC18SDEDownloadManager19URLPickerController29adjustsCellFontSizeToFitWidthSb">adjustsCellFontSizeToFitWidth</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>A Boolean value that determines to adjust font size in cell&rsquo;s textLabel to fit width. The default value
+is <code>false</code>. If URL link is not very long, this option is suitable, otherwise, it&rsquo;s better to use 
+<code><a href="../Classes/URLPickerController.html#/s:vC18SDEDownloadManager19URLPickerController22isFileNamePriorThanURLSb">isFileNamePriorThanURL</a></code> and <code><a href="../Classes/URLPickerController.html#/s:vC18SDEDownloadManager19URLPickerController29shouldDisplayTinyURLAtCellTopSb">shouldDisplayTinyURLAtCellTop</a></code>.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">adjustsCellFontSizeToFitWidth</span><span class="p">:</span> <span class="kt">Bool</span> <span class="o">=</span> <span class="kc">false</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vC18SDEDownloadManager19URLPickerController22isFileNamePriorThanURLSb"></a>
+                    <a name="//apple_ref/swift/Property/isFileNamePriorThanURL" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vC18SDEDownloadManager19URLPickerController22isFileNamePriorThanURLSb">isFileNamePriorThanURL</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>A Boolean value that determines to display file name or URL link. The default value is <code>false</code>.
+When URL link is too long to display it completely, you could just display file name. If it&rsquo;s
+difficult to know where these files come from, you could display a tiny URL link, which is replaced
+with file name by <q>***</q>, at the top of cell by <code><a href="../Classes/URLPickerController.html#/s:vC18SDEDownloadManager19URLPickerController29shouldDisplayTinyURLAtCellTopSb">shouldDisplayTinyURLAtCellTop</a></code>.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">isFileNamePriorThanURL</span><span class="p">:</span> <span class="kt">Bool</span> <span class="o">=</span> <span class="kc">false</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vC18SDEDownloadManager19URLPickerController29shouldDisplayTinyURLAtCellTopSb"></a>
+                    <a name="//apple_ref/swift/Property/shouldDisplayTinyURLAtCellTop" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vC18SDEDownloadManager19URLPickerController29shouldDisplayTinyURLAtCellTopSb">shouldDisplayTinyURLAtCellTop</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>A Boolean value that determines to display a tiny URL link, which is replaced with file name by <q>***</q>,
+at the top of cell to tell where file comes from. The default value is <code>false</code>. It&rsquo;s better to enable
+<code><a href="../Classes/URLPickerController.html#/s:vC18SDEDownloadManager19URLPickerController22isFileNamePriorThanURLSb">isFileNamePriorThanURL</a></code> if you want to enable this property.
+<img src="https://raw.githubusercontent.com/seedante/iOS-Note/master/SDEDownloadManager/LinkAtCellTop.png" alt=""></p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">shouldDisplayTinyURLAtCellTop</span><span class="p">:</span> <span class="kt">Bool</span> <span class="o">=</span> <span class="kc">false</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Table%20View%20Data%20Source"></a>
+                <a name="//apple_ref/swift/Section/Table View Data Source" class="dashAnchor"></a>
+                <a href="#/Table%20View%20Data%20Source">
+                  <h3 class="section-name">Table View Data Source</h3>
+                </a>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC18SDEDownloadManager19URLPickerController9tableViewFTCSo11UITableView24heightForHeaderInSectionSi_V12CoreGraphics7CGFloat"></a>
+                    <a name="//apple_ref/swift/Method/tableView(_:heightForHeaderInSection:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC18SDEDownloadManager19URLPickerController9tableViewFTCSo11UITableView24heightForHeaderInSectionSi_V12CoreGraphics7CGFloat">tableView(_:heightForHeaderInSection:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="n">open</span> <span class="kd">class</span> <span class="kt">URLPickerController</span><span class="p">:</span> <span class="kt"><a href="../Classes/SDETableViewController.html">SDETableViewController</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC18SDEDownloadManager19URLPickerController9tableViewFTCSo11UITableView21numberOfRowsInSectionSi_Si"></a>
+                    <a name="//apple_ref/swift/Method/tableView(_:numberOfRowsInSection:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC18SDEDownloadManager19URLPickerController9tableViewFTCSo11UITableView21numberOfRowsInSectionSi_Si">tableView(_:numberOfRowsInSection:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="n">open</span> <span class="kd">class</span> <span class="kt">URLPickerController</span><span class="p">:</span> <span class="kt"><a href="../Classes/SDETableViewController.html">SDETableViewController</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC18SDEDownloadManager19URLPickerController9tableViewFTCSo11UITableView12cellForRowAtV10Foundation9IndexPath_CSo15UITableViewCell"></a>
+                    <a name="//apple_ref/swift/Method/tableView(_:cellForRowAt:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC18SDEDownloadManager19URLPickerController9tableViewFTCSo11UITableView12cellForRowAtV10Foundation9IndexPath_CSo15UITableViewCell">tableView(_:cellForRowAt:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="n">open</span> <span class="kd">class</span> <span class="kt">URLPickerController</span><span class="p">:</span> <span class="kt"><a href="../Classes/SDETableViewController.html">SDETableViewController</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC18SDEDownloadManager19URLPickerController9tableViewFTCSo11UITableView22viewForHeaderInSectionSi_GSqCSo6UIView_"></a>
+                    <a name="//apple_ref/swift/Method/tableView(_:viewForHeaderInSection:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC18SDEDownloadManager19URLPickerController9tableViewFTCSo11UITableView22viewForHeaderInSectionSi_GSqCSo6UIView_">tableView(_:viewForHeaderInSection:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="n">open</span> <span class="kd">class</span> <span class="kt">URLPickerController</span><span class="p">:</span> <span class="kt"><a href="../Classes/SDETableViewController.html">SDETableViewController</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/UITableView%20Delegate"></a>
+                <a name="//apple_ref/swift/Section/UITableView Delegate" class="dashAnchor"></a>
+                <a href="#/UITableView%20Delegate">
+                  <h3 class="section-name">UITableView Delegate</h3>
+                </a>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC18SDEDownloadManager19URLPickerController9tableViewFTCSo11UITableView14didSelectRowAtV10Foundation9IndexPath_T_"></a>
+                    <a name="//apple_ref/swift/Method/tableView(_:didSelectRowAt:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC18SDEDownloadManager19URLPickerController9tableViewFTCSo11UITableView14didSelectRowAtV10Foundation9IndexPath_T_">tableView(_:didSelectRowAt:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="n">open</span> <span class="kd">class</span> <span class="kt">URLPickerController</span><span class="p">:</span> <span class="kt"><a href="../Classes/SDETableViewController.html">SDETableViewController</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC18SDEDownloadManager19URLPickerController9tableViewFTCSo11UITableView16didDeselectRowAtV10Foundation9IndexPath_T_"></a>
+                    <a name="//apple_ref/swift/Method/tableView(_:didDeselectRowAt:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC18SDEDownloadManager19URLPickerController9tableViewFTCSo11UITableView16didDeselectRowAtV10Foundation9IndexPath_T_">tableView(_:didDeselectRowAt:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="n">open</span> <span class="kd">class</span> <span class="kt">URLPickerController</span><span class="p">:</span> <span class="kt"><a href="../Classes/SDETableViewController.html">SDETableViewController</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2017 <a class="link" href="https://github.com/seedante/SDEDownloadManager" target="_blank" rel="external">seedante</a>. All rights reserved. (Last updated: 2017-11-20)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.8.3</a>, a <a class="link" href="http://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</div>
+</html>
