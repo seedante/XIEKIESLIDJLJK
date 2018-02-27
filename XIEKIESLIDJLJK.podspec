@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = 'XIEKIESLIDJLJK'
-  s.version      = '0.9.0'
+  s.version      = '0.9.2'
   s.summary      = 'A pure Swift implemented library to download file from the web.'
   s.description  = <<-DESC
 
