@@ -158,11 +158,11 @@
 		FDFCB9C11F27BB7200D06E12 = {
 			isa = PBXGroup;
 			children = (
-				FD3530D3204507310072E938 /* ViewController */,
 				FD84436A1F5B002C00B9E45B /* Info.plist */,
 				FD3A822B1F6BD3570087097A /* SDEDownloadManager.h */,
 				FDD67D172030556E006AACAD /* Resources */,
 				FDCBF3911F27C3F600E60128 /* Manager */,
+				FD3530D3204507310072E938 /* ViewController */,
 				FDA27CFD1F27CCF5001959C6 /* FeatureTests */,
 				FDFCB9CC1F27BB7200D06E12 /* Products */,
 			);
