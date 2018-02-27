@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FD3530CB204507110072E938 /* RestoreTaskController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD3530C4204507100072E938 /* RestoreTaskController.swift */; };
+		FD3530CC204507110072E938 /* SliderAlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD3530C5204507100072E938 /* SliderAlertController.swift */; };
+		FD3530CD204507110072E938 /* DownloadListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD3530C6204507100072E938 /* DownloadListController.swift */; };
+		FD3530CE204507110072E938 /* DownloadTrackerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD3530C7204507100072E938 /* DownloadTrackerCell.swift */; };
+		FD3530CF204507110072E938 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD3530C8204507100072E938 /* TableViewController.swift */; };
+		FD3530D0204507110072E938 /* URLPickerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD3530C9204507100072E938 /* URLPickerController.swift */; };
+		FD3530D1204507110072E938 /* SortViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD3530CA204507110072E938 /* SortViewController.swift */; };
 		FD3A822C1F6BD3570087097A /* SDEDownloadManager.h in Headers */ = {isa = PBXBuildFile; fileRef = FD3A822B1F6BD3570087097A /* SDEDownloadManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FD4D68281F71630C00F12E53 /* ThumbnailCacher.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD4D68271F71630C00F12E53 /* ThumbnailCacher.swift */; };
 		FDA27D011F27CCF5001959C6 /* SDEDownloadManager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDFCB9CB1F27BB7200D06E12 /* SDEDownloadManager.framework */; };
@@ -40,6 +47,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FD3530C4204507100072E938 /* RestoreTaskController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RestoreTaskController.swift; path = ViewController/RestoreTaskController.swift; sourceTree = "<group>"; };
+		FD3530C5204507100072E938 /* SliderAlertController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SliderAlertController.swift; path = ViewController/SliderAlertController.swift; sourceTree = "<group>"; };
+		FD3530C6204507100072E938 /* DownloadListController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DownloadListController.swift; path = ViewController/DownloadListController.swift; sourceTree = "<group>"; };
+		FD3530C7204507100072E938 /* DownloadTrackerCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DownloadTrackerCell.swift; path = ViewController/DownloadTrackerCell.swift; sourceTree = "<group>"; };
+		FD3530C8204507100072E938 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TableViewController.swift; path = ViewController/TableViewController.swift; sourceTree = "<group>"; };
+		FD3530C9204507100072E938 /* URLPickerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = URLPickerController.swift; path = ViewController/URLPickerController.swift; sourceTree = "<group>"; };
+		FD3530CA204507110072E938 /* SortViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SortViewController.swift; path = ViewController/SortViewController.swift; sourceTree = "<group>"; };
 		FD3A822B1F6BD3570087097A /* SDEDownloadManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDEDownloadManager.h; sourceTree = "<group>"; };
 		FD4D68271F71630C00F12E53 /* ThumbnailCacher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ThumbnailCacher.swift; path = Manager/ThumbnailCacher.swift; sourceTree = "<group>"; };
 		FD84436A1F5B002C00B9E45B /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -86,6 +100,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FD3530D3204507310072E938 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				FD3530C6204507100072E938 /* DownloadListController.swift */,
+				FD3530C7204507100072E938 /* DownloadTrackerCell.swift */,
+				FD3530C4204507100072E938 /* RestoreTaskController.swift */,
+				FD3530C5204507100072E938 /* SliderAlertController.swift */,
+				FD3530CA204507110072E938 /* SortViewController.swift */,
+				FD3530C8204507100072E938 /* TableViewController.swift */,
+				FD3530C9204507100072E938 /* URLPickerController.swift */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
 		FDA27CFD1F27CCF5001959C6 /* FeatureTests */ = {
 			isa = PBXGroup;
 			children = (
@@ -130,6 +158,7 @@
 		FDFCB9C11F27BB7200D06E12 = {
 			isa = PBXGroup;
 			children = (
+				FD3530D3204507310072E938 /* ViewController */,
 				FD84436A1F5B002C00B9E45B /* Info.plist */,
 				FD3A822B1F6BD3570087097A /* SDEDownloadManager.h */,
 				FDD67D172030556E006AACAD /* Resources */,
@@ -279,13 +308,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD3530CE204507110072E938 /* DownloadTrackerCell.swift in Sources */,
 				FDCBF38F1F27C3EA00E60128 /* FrameworkShare.swift in Sources */,
+				FD3530CF204507110072E938 /* TableViewController.swift in Sources */,
 				FDCBF38D1F27C3EA00E60128 /* DownloadOperation.swift in Sources */,
 				FDCBF38C1F27C3EA00E60128 /* DMExtension.swift in Sources */,
+				FD3530D1204507110072E938 /* SortViewController.swift in Sources */,
+				FD3530CC204507110072E938 /* SliderAlertController.swift in Sources */,
+				FD3530CB204507110072E938 /* RestoreTaskController.swift in Sources */,
 				FDCBF38B1F27C3EA00E60128 /* DownloadManager.swift in Sources */,
 				FD4D68281F71630C00F12E53 /* ThumbnailCacher.swift in Sources */,
 				FDCBF38E1F27C3EA00E60128 /* DownloadTracker.swift in Sources */,
 				FDE5AE521F9E3351007B0006 /* ListSorter.swift in Sources */,
+				FD3530D0204507110072E938 /* URLPickerController.swift in Sources */,
+				FD3530CD204507110072E938 /* DownloadListController.swift in Sources */,
 				FDCBF3901F27C3EA00E60128 /* SessionDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
